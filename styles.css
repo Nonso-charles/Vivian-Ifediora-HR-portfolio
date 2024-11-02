@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: #987554;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about, .skills, .experience, .testimonials, .contact {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul, .experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li, .experience-item ul li {
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    background: #987554;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    background: #987554;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.about h2, .skills h2, .experience h2, .testimonials h2, .contact h2 {
+    color: #987554;
+}
+
+.testimonials p, .experience p, .experience li, .experience h3, .skills li, .about p
+{
+    color:#5C4B3B;
+}
